@@ -1,17 +1,20 @@
 {
-  "name": "Twibbon Web App",
+  "name": "Twibbon",
+  "description": "Where campaigns meet you!",
   "short_name": "Twibbon Web App",
-  "icons": [{
-      "src": "img/android-chrome-512x512.png",
-      "sizes": "152x152",
-      "type": "image/png"
-    }, {
-      "src": "img/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-  }],
-  "start_url": "index.html",
+  "start_url": "/",
+  "lang": "en-ID",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#333333"
+  "icons": [
+    {
+      "src": "https://bankzhat.github.io/pwa/img",
+      "sizes": "192x192",
+      "type": "png"
+    },
+    {
+      "src": "https://bankzhat.github.io/pwa/img",
+      "sizes": "512x512",
+      "type": "png"
+    }
+  ]
 }
